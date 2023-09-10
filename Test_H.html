@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>Title</title>
+    <link rel="stylesheet" href="Test_C.css">
+</head>
+<body>
+<form id="admin_form">
+    <div>Имя пользователя:</div>
+    <input id="user" type="text" class="login">
+    <div>Пароль:</div>
+    <input id="pass" type="password" class="pass">
+    <button type="button" id="log in" onclick="logIn()">Войти</button>
+</form>
+<form id="enter_form" style="display: none">
+    <div class="enter-form">
+        <label>Вопрос</label>
+    <input id="question_enter">
+        <label>Ответ</label>
+    <input id="answer_enter1">
+        <label>Ответ</label>
+    <input id="answer_enter2">
+        <label>Ответ</label>
+    <input id="answer_enter3">
+    </div>
+    <button type="submit">Отправить</button>
+</form>
+<form id="user_form" class="user_form" style="display: none;">
+<div class="title" id="title"></div>
+<!--<div class="read">-->
+<!--    <input type="file" id="file">-->
+<!--    <button onclick="showFile()">Read file</button>-->
+<!--</div>-->
+    <div class="wrapper" id="wrapper">
+        <div class="container" id="container"></div>
+<div class="bDiv">
+    <button type="button" class="buttonNext" id="buttonNext" onclick="nextStep()">Next</button>
+    <button type="button" class="buttonNext" id="buttonSee" onclick="see()">See</button>
+</div>
+    </div>
+</form>
+</body>
+<script src="Test_JS_v2.js"></script>
+</html>
